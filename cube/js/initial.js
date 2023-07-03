@@ -53,7 +53,8 @@ $(document).ready(function() {
 	window.cubeGL = new ERNO.Cube({
 		hideInvisibleFaces: true,
 		controls: controls,
-		renderer: isIe ? ERNO.renderers.IeCSS3D : null
+		renderer: isIe ? ERNO.renderers.IeCSS3D : null,
+    showCode:true,//todo:是否显示Code,
 	});
 
 	const container = document.getElementById( 'container' );
