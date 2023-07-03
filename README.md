@@ -107,7 +107,7 @@ For example:
 
 ## Algorithm
 
-### Layer By Layer (层先法)
+### Layer By Layer (层先法1111)
 
 - [x] The First Layer Edges | 底部棱块归位
 - [x] The First Layer Corners | 底部角块归位
