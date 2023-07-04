@@ -54,7 +54,8 @@ $(document).ready(function() {
 		hideInvisibleFaces: true,
 		controls: controls,
 		renderer: isIe ? ERNO.renderers.IeCSS3D : null,
-    showCode:true,//todo:是否显示Code,
+    showCode:true,//学习点:是否显示Code,
+    showLayer:"U",//学习点:显示层
 	});
 
 	const container = document.getElementById( 'container' );
@@ -81,7 +82,7 @@ $(document).ready(function() {
 
 	cubeGL.twistDuration = 300;//旋转速度
 
-	cubeGL.twist('X');//学习点：旋转
+	// cubeGL.twist('X');//学习点：旋转
 
 	// cubeGL.shuffle(); //打乱
 	// cubeGL.twist('d');//旋转
